@@ -6,13 +6,13 @@ namespace _090826_ovelse
 {
     public class Building
     {
-        public string NameBuilding;
-        public int BuildingNumber;
-        public string Description;
-        public string LocationCity;
-        public string FunctionOfBuilding;
-        public int EmployeesCapacity;
-        public int VisitorCapacity;
+        public string NameBuilding { get; set; }
+        public int BuildingNumber { get; set; }
+        public string Description { get; set; }
+        public string LocationCity { get; set; }
+        public string FunctionOfBuilding { get; set; }
+        public int EmployeesCapacity { get; set; }
+        public int VisitorCapacity { get; set; }
         /// <summary>
         /// Constructor for Building
         /// </summary>

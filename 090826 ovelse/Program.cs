@@ -27,11 +27,20 @@ animalList.Add(animalReptile02);
 Console.WriteLine("Welcome to the Zoo");
 Console.WriteLine($"Number of animals in our zoo: {animalList.Count}");
 Console.WriteLine(" ");
-Console.WriteLine("The animals ID is mentioned with their respective names:");
+//Console.WriteLine("The animals ID is mentioned with their respective names:");
+
+//for (int i = 0; i < animalList.Count; i++)
+//{
+//    Console.WriteLine($"- {animalList[i].NameAnimal}");
+//}
 
 for (int i = 0; i < animalList.Count; i++)
 {
-    Console.WriteLine($"- {animalList[i].NameAnimal}");
+    //Console.WriteLine($" {animalList[i].FeedingRequirement}");
+    if (animalList[i].FeedingRequirement == "Carnivore")
+    {
+        Console.WriteLine($"Disse dyr spiser kød: {animalList[i].NameAnimal}");
+    }
 }
 
 Building building1 = new Building("Toilet building one", 1, "Toilet facilities for both men, women and handicapped", "Silkeborg", "Toilet", 5, 20);
@@ -44,6 +53,15 @@ buildingList.Add(building1);
 buildingList.Add(building2);
 buildingList.Add(building3);
 buildingList.Add(building4);
+
+
+for (int i = 0; i < buildingList.Count; i++)
+{
+    if (buildingList[i].LocationCity != "Viborg")
+    {
+        Console.WriteLine($"Disse lokationer ligger ikke i Viborg Kommune: {buildingList[i].LocationCity}");
+    }
+}
 
 Employee employee1 = new Employee("Ellen", "Hansson", "Cleaning", 2015);
 Employee employee2 = new Employee("Hans", "Ehmsen", "Janitor", 2005);
@@ -122,6 +140,8 @@ List<ZooLocation> zooLocationList = new List<ZooLocation>();
 zooLocationList.Add(zooLocation1);
 zooLocationList.Add(zooLocation2);
 zooLocationList.Add(zooLocation3);
+
+
 
 
 
