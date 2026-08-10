@@ -23,7 +23,7 @@ namespace _090826_ovelse
         /// <param name="amountInStock"></param>
         /// <param name="arrivedDateOfMonth"></param>
         /// <param name="spoiledDateOfMonth"></param>
-        Items(string nameItem, string description, string categoryOfItem, int priceOfItem, int amountInStock, int arrivedDateOfMonth, int spoiledDateOfMonth)
+        public Items(string nameItem, string description, string categoryOfItem, int priceOfItem, int amountInStock, int arrivedDateOfMonth, int spoiledDateOfMonth)
         {
             NameItem = nameItem;
             Description = description;

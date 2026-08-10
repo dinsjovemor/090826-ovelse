@@ -65,8 +65,32 @@ Habitat habitat5 = new Habitat("Enclosure2", "Middle Safety", 6, 10, 2, 5);
 Habitat habitat6 = new Habitat("Enclosure3", "High Safety", 2, 50, 1, 5);
 Habitat habitat7 = new Habitat("Fishtank1", "Middle Safety", 6, 100, 2, 10);
 Habitat habitat8 = new Habitat("Fishtank2", "High Safety", 6, 60, 3, 5);
+List<Habitat> habitatList = new List<Habitat>();
+habitatList.Add(habitat1);
+habitatList.Add(habitat2);
+habitatList.Add(habitat3);
+habitatList.Add(habitat4);
+habitatList.Add(habitat5);
+habitatList.Add(habitat6);
+habitatList.Add(habitat7);
+habitatList.Add(habitat8);
+
+Items items1 = new Items("Soda", "Fanta, Soda Can, 33 ml", "Beverage", 20, 50, 01, 30);
+Items items2 = new Items("Sandwich", "Sandwich, Food, 33 ml", "Food", 25, 20, 02, 10);
+Items items3 = new Items("Souvenier1", "Souvenier, Monkey, Small", "Souvenier", 55, 10, 20, 30);
+Items items4 = new Items("Ice Cream", "Ice Cream, Soft ice, Normal", "Food", 45, 50, 05, 20);
+Items items5 = new Items("Coffee", "Coffee, Black, Middle Size", "Beverage", 15, 50, 10, 30);
+Items items6 = new Items("Animal Feeding Carnivore", "Meat for Carnivore", "Animal Feeding", 100, 100, 20, 30);
+Items items7 = new Items("Animal Feeding Omnivore", "Feeding for Omnivore", "Animal Feeding", 50, 90, 25, 01);
+Items items8 = new Items("Animal Feeding Herbivore", "Feeding for Herbivore", "Animal Feeding", 20, 150, 30, 05);
+List<Items> itemsList = new List<Items>();
 
 
+
+
+
+//Items(string nameItem, string description, string categoryOfItem, int priceOfItem, int amountInStock,
+//int arrivedDateOfMonth, int spoiledDateOfMonth)
 
 
 
