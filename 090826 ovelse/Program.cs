@@ -84,13 +84,17 @@ Items items6 = new Items("Animal Feeding Carnivore", "Meat for Carnivore", "Anim
 Items items7 = new Items("Animal Feeding Omnivore", "Feeding for Omnivore", "Animal Feeding", 50, 90, 25, 01);
 Items items8 = new Items("Animal Feeding Herbivore", "Feeding for Herbivore", "Animal Feeding", 20, 150, 30, 05);
 List<Items> itemsList = new List<Items>();
+itemsList.Add(items1);
+itemsList.Add(items2);
+itemsList.Add(items3);
+itemsList.Add(items4);
+itemsList.Add(items5);
+itemsList.Add(items6);
+itemsList.Add(items7);
+itemsList.Add(items8);
 
 
 
-
-
-//Items(string nameItem, string description, string categoryOfItem, int priceOfItem, int amountInStock,
-//int arrivedDateOfMonth, int spoiledDateOfMonth)
 
 
 
