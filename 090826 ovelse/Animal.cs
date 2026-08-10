@@ -6,10 +6,10 @@ namespace _090826_ovelse
 {
     public class Animal
     {
-        public string NameAnimal;
-        public string AnimalGroup;
-        public int SafetyRequirement;
-        public string FeedingRequirement;
+        public string NameAnimal { get; set; }
+        public string AnimalGroup { get; set; }
+        public int SafetyRequirement { get; set; }
+        public string FeedingRequirement { get; set; }
         /// <summary>
         /// Constructor for Animal
         /// </summary>
