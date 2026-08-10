@@ -15,7 +15,7 @@ namespace _090826_ovelse
         /// <param name="visitorNumber"></param>
         /// <param name="nameVisitor"></param>
         /// <param name="amountOfMoney"></param>
-        Visitor(int visitorNumber, string nameVisitor, int amountOfMoney)
+        public Visitor(int visitorNumber, string nameVisitor, int amountOfMoney)
         {
 
             VisitorNumber = visitorNumber;

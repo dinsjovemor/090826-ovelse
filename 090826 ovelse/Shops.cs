@@ -21,7 +21,7 @@ namespace _090826_ovelse
   /// <param name="visitorCapacity"></param>
   /// <param name="itemSold"></param>
   /// <param name="stockCapacity"></param>
-        Shops(string shopName, string typeOfShop, int numberOfEmployees, int visitorCapacity, string itemSold, int stockCapacity)
+       public  Shops(string shopName, string typeOfShop, int numberOfEmployees, int visitorCapacity, string itemSold, int stockCapacity)
         {
             ShopName = shopName;
             TypeOfShop = typeOfShop;

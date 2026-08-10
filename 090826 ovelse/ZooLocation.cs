@@ -24,7 +24,7 @@ namespace _090826_ovelse
         /// <param name="buildingCapacity"></param>
         /// <param name="employeeCapacity"></param>
         /// <param name="enclosureMaxLevelSecurity"></param>
-        ZooLocation(string nameZoo, string city, int shopCapacity, int visitorCapacity, int buildingCapacity, int employeeCapacity, int enclosureMaxLevelSecurity)
+        public ZooLocation(string nameZoo, string city, int shopCapacity, int visitorCapacity, int buildingCapacity, int employeeCapacity, int enclosureMaxLevelSecurity)
         {
             NameZoo = nameZoo;
             City = city;

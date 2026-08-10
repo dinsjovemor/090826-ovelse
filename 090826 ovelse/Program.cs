@@ -94,7 +94,34 @@ itemsList.Add(items7);
 itemsList.Add(items8);
 
 
+Shops shops1 = new Shops("Shop1", "Ice Cream Sale", 2, 100, "Ice Cream", 200);
+Shops shops2 = new Shops("Shop2", "Souvenier Sale", 2, 50, "Souvenir", 100);
+Shops shops3 = new Shops("Restaturant1", "Restaurant", 12, 40, "Restaurant", 200);
+Shops shops4 = new Shops("Restaturant2", "Restaurant", 24, 80, "Restaurant", 300);
 
+Visitor visitor1 = new Visitor(1, "Hanne", 500);
+Visitor visitor2 = new Visitor(2, "Hugo", 400);
+Visitor visitor3 = new Visitor(3, "Nanne", 1000);
+Visitor visitor4= new Visitor(4, "Jakob", 2000);
+Visitor visitor5= new Visitor(5, "Maren", 200);
+Visitor visitor6= new Visitor(6, "Allan", 800);
+Visitor visitor7= new Visitor(7, "Marianne", 300);
+List<Visitor> visitorList = new List<Visitor>();
+visitorList.Add(visitor1);
+visitorList.Add(visitor2);
+visitorList.Add(visitor3);
+visitorList.Add(visitor4);
+visitorList.Add(visitor5);
+visitorList.Add(visitor6);
+visitorList.Add(visitor7);
+
+ZooLocation zooLocation1 = new ZooLocation("Silkeborg Zoologisk Have", "Silkeborg", 5, 5000, 20, 100, 2);
+ZooLocation zooLocation2 = new ZooLocation("ReptilHaven", "Aarhus C", 10, 9000, 30, 200, 1);
+ZooLocation zooLocation3 = new ZooLocation("AquaLand", "Billund", 20, 10000, 40, 250, 3);
+List<ZooLocation> zooLocationList = new List<ZooLocation>();
+zooLocationList.Add(zooLocation1);
+zooLocationList.Add(zooLocation2);
+zooLocationList.Add(zooLocation3);
 
 
 
