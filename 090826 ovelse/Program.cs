@@ -75,6 +75,22 @@ employeeList.Add(employee3);
 employeeList.Add(employee4);
 employeeList.Add(employee5);
 
+Console.WriteLine(" ");
+
+Console.WriteLine("Vores medarbejdere er søde..");
+for (int i = 0; i < employeeList.Count; i++)
+{
+    Console.WriteLine($"Disse medarbejdere arbejder stadig hos os: ");
+    Console.WriteLine(" ");
+
+    if (employeeList[i].EmployedYear > 2005)
+    {
+        Console.WriteLine($"{employeeList[i].NameEmployee} {employeeList[i].EmployedYear}");
+    }
+    else
+        Console.WriteLine("");
+}
+
 Habitat habitat1 = new Habitat("Cage1", "Max Safety", 1, 20, 1, 5);
 Habitat habitat2 = new Habitat("Cage2", "Middle Safety", 5, 50, 1, 5);
 Habitat habitat3 = new Habitat("Cage3", "Low Safety", 10, 5, 1, 2);

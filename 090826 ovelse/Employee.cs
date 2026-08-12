@@ -6,10 +6,10 @@ namespace _090826_ovelse
 {
     public class Employee
     {
-        public string NameEmployee;
-        public string Lastname;
-        public string JobTitle;
-        public int EmployedYear;
+        public string NameEmployee { get; set; }
+        public string Lastname { get; set; }
+        public string JobTitle { get; set; }
+        public int EmployedYear { get; set; }
         /// <summary>
         /// Constructor for Employee
         /// </summary>
